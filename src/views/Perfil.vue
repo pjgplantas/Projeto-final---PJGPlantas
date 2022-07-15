@@ -136,8 +136,9 @@ export default {
 .login-page {
   width: 1950px;
   height: 1000px;
-  background-color: #3bb78f;
-  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+  background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: #00bf8f; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .parte1 {
   margin: 2% 0 0 15%;
@@ -186,8 +187,9 @@ export default {
   width: 480px;
 }
 .btncad {
-  background-color: #3bb78f;
-  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+  background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: #00bf8f; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 0;
   padding: 13px;
   width: 150px;

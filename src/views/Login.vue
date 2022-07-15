@@ -148,8 +148,10 @@ span {
   padding: 0 10px;
 }
 body {
-  background-color: #3bb78f;
-  background-image: linear-gradient(315deg, #46caa0 0%, #069454 74%);
+ background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .dlogin {
   font-size: 35px;
@@ -171,13 +173,9 @@ a:hover {
   text-decoration: none;
 }
 .btncad {
-  background: rgb(62, 150, 97);
-  background: linear-gradient(
-    90deg,
-    rgb(41, 116, 71) 0%,
-    rgba(62, 150, 97, 1) 35%,
-    rgb(83, 201, 130) 100%
-  );
+  background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: #00bf8f; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 0;
   padding: 10px;
   width: 130px;
@@ -195,13 +193,9 @@ a:hover {
   font-size: 20px;
 }
 .btncad2 {
-  background: rgb(62, 150, 97);
-  background: linear-gradient(
-    90deg,
-    rgb(41, 116, 71) 0%,
-    rgba(62, 150, 97, 1) 35%,
-    rgb(83, 201, 130) 100%
-  );
+ background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: #00bf8f; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 0;
   padding: 10px;
   width: 150px;

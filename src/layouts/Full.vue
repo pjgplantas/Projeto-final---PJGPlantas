@@ -87,7 +87,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@1&display=swap");
 .hrlay {
   margin: 5% 0 0 0;
-  border-color: #3e9661;
+  border-color: #00bf8f;
 }
 .navpr {
   height: 75px;
@@ -104,22 +104,24 @@
   padding: 20px;
 }
 #footer {
-  color: #3e9661;
+  color:  #00bf8f;  /* fallback for old browsers */
+color: -webkit-(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+color:  #00bf8f; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size: 25px;
   margin: 5% 0 0 20%;
 }
 #navb {
   font-size: 23px;
-  color: #3e9661;
+  color: #099d78;
   font-weight: bold;
 }
 .footer2 {
   margin: 0 0 0 15%;
 }
 ul.dropdown-menu.dropdown-menu-right.show {
-  background: rgba(62, 150, 97, 0.92);
+  background: #099d78;
   height: 80px;
-  width: 200px;
+  width: 220px;
   display: block;
 }
 .navbar-nav {
@@ -127,15 +129,15 @@ ul.dropdown-menu.dropdown-menu-right.show {
   padding: 0;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: #84cca1;
+  color: #00bf8f;
 }
 
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: #84cca1;
+  color: #00bf8f;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #3e9661;
+  color: #099d78;
 }
 ul.dropdown-menu.show {
   background-color: white;
@@ -154,7 +156,7 @@ ul.dropdown-menu.show {
   font-style: italic;
   font-family: Times, serif;
   text-align: center;
-  color: #3e9661;
+  color: #099d78;
 }
 .PreçoP {
   font-size: 18px;
@@ -202,7 +204,7 @@ ul.dropdown-menu.show {
   color: white;
 }
 .hrc {
-  border: #54c782 1px solid;
+  border: #099d78 1px solid;
   width: 23vh;
   margin: 0;
 }

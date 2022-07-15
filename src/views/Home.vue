@@ -193,8 +193,9 @@ export default {
 
 <style>
 a.btn.btn1.btn-primary {
-  background-color: #3bb78f;
-  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+  background: #00bf8f;  /* fallback for old browsers */
+background: -webkit-(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+background: #00bf8f; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 5px;
   border: 0;
   padding: 10px;
@@ -226,7 +227,7 @@ a.btn.btn1.btn-primary:hover {
 .titlepl {
   margin: 5% 0 0 20%;
   font-size: 29px;
-  color: #3e9661;
+  color: #099d78;
   padding: 30px;
   font-style: normal;
   font-weight: 400;
@@ -235,12 +236,14 @@ a.btn.btn1.btn-primary:hover {
 .titlepl2 {
   margin: 5% 0 0 21%;
   font-size: 29px;
-  color: #3e9661;
+  color: #099d78;
   font-style: normal;
   font-weight: 400;
 }
 .titulo5 {
-  color: #3e9661;
+  color:  #00bf8f;  /* fallback for old browsers */
+color: -webkit-(to top, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+color:  #00bf8f; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 63%;
   font-family: "Josefin Sans", sans-serif;
   text-align: left;
